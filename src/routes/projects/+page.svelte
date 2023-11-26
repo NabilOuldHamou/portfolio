@@ -9,9 +9,7 @@
     
     <div class='flex flex-wrap gap-4 w-4/5 mb-6 items-center justify-center'>
         {#each projects as project}
-
             <Project name={project.name} stack={project.stack} description={project.description} url={project.url} />
-
         {/each}
     </div>
 </div>
