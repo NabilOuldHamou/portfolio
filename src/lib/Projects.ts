@@ -14,7 +14,7 @@ const projects = [
     {
         "name": "AnimeWorld",
         "stack": ["Symfony 6", "PHP", "Nginx"],
-        "description": "University group project made in for a class. I also took the initiative to deploy the website on my VPS.",
+        "description": "University group project made for Web Server Programming class. I also took the initiative to deploy the website on my VPS.",
         "url": "https://github.com/luxray555/projetsymfony"
     },
     {

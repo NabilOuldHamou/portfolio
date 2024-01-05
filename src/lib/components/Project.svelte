@@ -1,8 +1,8 @@
-<script>
-    export let name;
-    export let stack;
-    export let description;
-    export let url;
+<script lang="ts">
+    export let name: string;
+    export let stack: string;
+    export let description: string;
+    export let url: string;
 </script>
 
 <a target='_blank' href='{url}'>
