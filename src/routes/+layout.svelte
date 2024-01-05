@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import "../app.css";
   import Navbar from '$lib/components/Navbar.svelte';
   import { page } from '$app/stores';
