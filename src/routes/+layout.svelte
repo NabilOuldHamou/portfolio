@@ -10,11 +10,3 @@
     <slot />
   </section>
 </main>
-
-<style lang="postcss">
-  :global(html) {
-    font-family: theme(fontFamily.fira-code);
-    background-color: theme(colors.dark-charcoal-gray);
-    color: theme(colors.white-smoke);
-  }
-</style>
