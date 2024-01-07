@@ -3,13 +3,15 @@
     import projects from '$lib/Projects'
 </script>
 
-<div class='flex flex-col items-center'>
+<div class='flex flex-col justify-center items-center pt-6'>
+    <div class='w-4/5 lg:w-3/5'>
+        <h1 class='md:text-4xl text-3xl pb-5 font-bold'>Projects</h1>
+
+    </div>
     
-    <h1 class='text-accent text-4xl font-bold my-4'>Projects</h1>
-    
-    <div class='flex flex-col gap-6 w-4/5 mb-6 items-center justify-center'>
+    <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6'>
         {#each projects as project}
-            <Project name={project.name} stack={project.stack} description={project.description} url={project.url} />
+            <Project name={project.name} stack={project.stack} shortDescription={project.shortDesc} description={project.description} url={project.url} />
         {/each}
     </div>
 </div>

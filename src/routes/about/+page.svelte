@@ -1,7 +1,7 @@
 <div class='flex flex-col justify-center items-center pt-6'>
     <div class='text-justify w-4/5 lg:w-3/5'>
-        <h3 class='text-accent md:text-4xl text-3xl pb-5 font-bold'>About Me</h3>
-        <p class='sm:text-xl text-md'>Hello I am <span class='text-accent'>Nabil Ould Hamou</span>, a <span class='text-accent'>computer science student</span>.
+        <h1 class='md:text-4xl text-3xl pb-5 font-bold'>About Me</h1>
+        <p class='text-muted-foreground text-lg'>I am <span class='text-foreground font-bold'>Nabil Ould Hamou</span>, a <span class='text-foreground font-bold'>computer science student</span>.
         I am currently studying computer science and making my way to become an embedded systems engineer. Since a very young age I always 
         loved tinkering, especially with electronics, anything from game consoles to computers. This curiosity led me into pursuing my dream
         of become a computer scientist.</p>
