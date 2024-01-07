@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
     import routes from '$lib/Routes'
     import LightSwitch from "@/components/LightSwitch.svelte";
     import HamburgerMenu from "@/components/HamburgerMenu.svelte";
-    export let path;
+    export let path: string;
 </script>
 
 <div class='h-14 w-full top-0 left-0 sticky flex justify-center items-center bg-background'>
