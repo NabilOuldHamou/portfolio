@@ -36,6 +36,14 @@ const projects = [
             "I proceeded to write a program that can read the data from the EMG and send it to a computer where that data can be read and processed accordingly. " +
             "My friend did not release the source code thus the project is considered proprietary.",
         "url": ""
+    },
+    {
+        "name": "bret-a-porter",
+        "stack": ["SvelteKit", "Docker"],
+        "shortDesc": "App to create well plates schemas and protocols for biologists.",
+        "description": "bret-a-porter is an app made for INRAE, a french research institute. The goal is the simplify the creation of well plates and protocols for biologists" +
+            "and parsing of the raw data coming out of the machines so it can be normalized and used for statistics or other research purposes.",
+        "url": ""
     }
 ]
 
