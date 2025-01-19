@@ -22,8 +22,8 @@
 				Hi I am <span class="text-foreground font-bold">Nabil</span> 👋
 			</p>
 			<p class="text-muted-foreground">
-				I am a <span class="text-foreground">computer science student</span> 👨‍💻 interested in
-				<span class="text-foreground">software engineering</span> 📟.
+				I am a <span class="text-foreground">computer science student</span> 👨‍💻 studying
+				<span class="text-foreground">AI/ML and many other subjects</span> 🚀.
 			</p>
 		</Card.Content>
 		<Card.Footer class="flex flex-col justify-center gap-2">
