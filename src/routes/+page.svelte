@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Button } from '@/components/ui/button';
-	import { GithubLogo } from 'radix-icons-svelte';
+	import { Backpack, GithubLogo, LinkedinLogo } from 'radix-icons-svelte';
 	import { TwitterLogo } from 'radix-icons-svelte';
 	import { FileText } from 'radix-icons-svelte';
 	import * as Card from '@/components/ui/card';
@@ -27,7 +27,11 @@
 			</p>
 		</Card.Content>
 		<Card.Footer class="flex flex-col justify-center gap-2">
-			<div class="flex justify-center gap-1.5 sm:gap-3">
+			<div class="flex justify-center flex-wrap gap-1.5 sm:gap-3">
+				<Button href="https://forge.oxyjen.io/nabil_oh" target="_blank" variant="outline">
+					<Backpack class="mr-2 h-4 w-4" />
+					Forgejo
+				</Button>
 				<Button href="https://github.com/nabilouldhamou" target="_blank" variant="outline">
 					<GithubLogo class="mr-2 h-4 w-4" />
 					Github
@@ -39,6 +43,10 @@
 				<Button href="https://twitter.com/nbil_o" target="_blank" variant="outline">
 					<TwitterLogo class="mr-2 h-4 w-4" />
 					Twitter
+				</Button>
+				<Button href="https://www.linkedin.com/in/nabil-ould-hamou-31181422b/" target="_blank" variant="outline">
+					<LinkedinLogo class="mr-2 h-4 w-4" />
+					LinkedIn
 				</Button>
 			</div>
 			<p class="font-bold">Contact: ouldhamounabil@gmail.com</p>
