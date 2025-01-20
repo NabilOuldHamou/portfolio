@@ -28,7 +28,7 @@
 		</Card.Content>
 		<Card.Footer class="flex flex-col justify-center gap-2">
 			<div class="flex justify-center flex-wrap gap-1.5 sm:gap-3">
-				<Button href="https://forge.oxyjen.io/nabil_oh" target="_blank" variant="outline">
+				<Button href="https://air.oxyjen.io/nabil_oh" target="_blank" variant="outline">
 					<Backpack class="mr-2 h-4 w-4" />
 					Forgejo
 				</Button>
