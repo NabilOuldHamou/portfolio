@@ -30,7 +30,7 @@
 			<div class="flex justify-center flex-wrap gap-1.5 sm:gap-3">
 				<Button href="https://air.oxyjen.io/nabil_oh" target="_blank" variant="outline">
 					<Backpack class="mr-2 h-4 w-4" />
-					Forgejo
+					Gitea
 				</Button>
 				<Button href="https://github.com/nabilouldhamou" target="_blank" variant="outline">
 					<GithubLogo class="mr-2 h-4 w-4" />
