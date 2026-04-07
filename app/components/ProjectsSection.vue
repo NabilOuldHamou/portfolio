@@ -1,12 +1,12 @@
 <script setup lang="ts">
 const projects = [
   {
-    year: "2025",
-    role: "Closet Helper",
+    year: "2026",
+    role: "Simple \"vampire survivor\"",
     company: "Personal Project",
     description:
-      "A powerful AI assistant leveraging the power of LLMs and image detection to help the user choose their outfit based on their clothes and the weather.",
-    tech: ["Python", "YOLO", "PyTorch"],
+      "Simple game with Bevy to continue my learning of the Rust programming language.",
+    tech: ["Rust", "Bevy"],
   },
   {
     year: "2025",
