@@ -36,7 +36,7 @@ const jobs = [
           :key="index"
           class="group grid lg:grid-cols-12 gap-4 sm:gap-8 py-6 sm:py-8 border-b border-border/50 hover:border-border transition-colors duration-500"
         >
-          <div class="lg:col-span-2">
+          <div class="lg:col-span-4">
             <div
               class="text-xl sm:text-2xl font-light text-muted-foreground group-hover:text-foreground transition-colors duration-500"
             >
