@@ -6,6 +6,7 @@
 
     <main class="max-w-4xl mx-auto px-6 sm:px-8 lg:px-16">
       <PresentationSection />
+      <EducationSection />
       <JobsSection />
       <ProjectsSection />
       <ConnectSection />

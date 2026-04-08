@@ -4,7 +4,7 @@
 
 # Nabil Ould Hamou - Portfolio
 
-To visit my website [click here](https://nbiloh.me/)!
+To visit my website [click here](https://nabiloh.com/)!
 
 A minimalist portfolio website built with [Nuxt 4](https://nuxt.com/).
 
