@@ -2,7 +2,7 @@
   <nav class="fixed left-8 top-1/2 -translate-y-1/2 z-10 hidden lg:block">
     <div class="flex flex-col gap-4">
       <button
-        v-for="section in ['intro', 'work', 'projects', 'connect']"
+        v-for="section in ['intro', 'education', 'work', 'projects', 'connect']"
         :key="section"
         @click="scrollToSection(section)"
         :class="[
