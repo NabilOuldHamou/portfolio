@@ -20,7 +20,7 @@ const jobs = [
 </script>
 <template>
   <section
-    id="work"
+    id="education"
     class="min-h-screen py-20 sm:py-32 snap-start snap-always animate-fade-in"
   >
     <div class="space-y-12 sm:space-y-16">
