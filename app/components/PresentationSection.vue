@@ -10,9 +10,6 @@ import { MapPinIcon } from "lucide-vue-next";
     <div class="grid lg:grid-cols-5 gap-12 sm:gap-16 w-full">
       <div class="lg:col-span-3 space-y-6 sm:space-y-8">
         <div class="space-y-3 sm:space-y-2">
-          <div class="text-sm text-muted-foreground font-mono tracking-wider">
-            PORTFOLIO
-          </div>
           <h1
             class="text-5xl sm:text-6xl lg:text-7xl font-light tracking-tight"
           >
@@ -24,10 +21,8 @@ import { MapPinIcon } from "lucide-vue-next";
 
         <div class="space-y-6 max-w-md">
           <p class="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-            Computer science student and aspiring
-            <span class="text-foreground"> AI</span>,<span
-              class="text-foreground"
-            >
+              AI/ML engineer and aspiring
+            <span class="text-foreground">
               researcher</span
             >, working towards a<span class="text-foreground"> PhD</span>.
           </p>
@@ -49,9 +44,25 @@ import { MapPinIcon } from "lucide-vue-next";
         <div class="space-y-4">
           <div class="text-sm text-muted-foreground font-mono">CURRENTLY</div>
           <div class="space-y-2">
-            <div class="text-foreground">Masters 2 Student</div>
-            <div class="text-muted-foreground">@ Université de Tours</div>
+            <div class="text-foreground">Assistant Ingenieur</div>
+            <div class="text-muted-foreground">@ <a class="text-foreground underline hover:text-indigo-600" href="https://mabsilico.com" target="_blank">MAbSilico</a></div>
             <div class="text-xs text-muted-foreground">2021 — Present</div>
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <div class="text-sm text-muted-foreground font-mono">EDUCATION</div>
+          <div class="flex flex-wrap gap-2">
+            <li
+              v-for="skill in [
+                'Licence Informatique',
+                'Master Intelligent Systems and Application',
+              ]"
+              :key="skill"
+              class="hover:cursor-default py-1 text-xs mx-3"
+            >
+              <ul>{{ skill }}</ul>
+            </li>
           </div>
         </div>
 
@@ -62,12 +73,11 @@ import { MapPinIcon } from "lucide-vue-next";
               v-for="skill in [
                 'AI/ML',
                 'Data Science',
-                'Web Development',
-                'Software Engineering',
-                'Services Architecture',
+                'Antibody Drug Discovery',
+                'Immunology',
               ]"
               :key="skill"
-              class="px-3 py-1 text-xs border border-border rounded-full hover:border-muted-foreground/50 transition-colors duration-300"
+              class="hover:cursor-default px-3 py-1 text-xs border border-border rounded-full hover:border-muted-foreground/50 transition-colors duration-300"
             >
               {{ skill }}
             </span>

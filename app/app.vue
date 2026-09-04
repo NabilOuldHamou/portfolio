@@ -2,8 +2,8 @@
 useSeoMeta({
   title: "Nabil Ould Hamou - Portfolio",
   ogTitle: "Nabil Ould Hamou - Portfolio",
-  description: "Computer science student and aspiring AI researcher.",
-  ogDescription: "Computer science student and aspiring AI researcher.",
+  description: "AI/ML engineer working towards a PhD.",
+  ogDescription: "AI/ML engineer working towards a PhD.",
 });
 </script>
 

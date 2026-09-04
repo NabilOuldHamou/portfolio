@@ -1,26 +1,34 @@
 <script setup lang="ts">
 const jobs = [
   {
-    year: "2026",
-    role: "Research Intern",
-    company: "MabSilico",
+    year: "2027",
+    role: "PhD Student",
+    company: "MAbSilico / LORIA",
     description:
-      "Development of an approach for measuring genome structure similarity and predicting the melting point of antibodies.",
-    type: "Internship",
+      "",
+    type: "",
   },
   {
-    year: "2024",
-    role: "Web Developer",
-    company: "INRAE",
+    year: "2026",
+    role: "Assistant Ingénieur",
+    company: "MAbSilico",
     description:
-      "Development of a web interface for submitting data from biology experiments",
+      "",
+    type: "Temporary Contract",
+  },
+  {
+    year: "2026",
+    role: "Research Intern",
+    company: "MAbSilico",
+    description:
+      "Development of an approach to predict the melting temperature of antibodies.",
     type: "Internship",
   },
 ];
 </script>
 <template>
   <section
-    id="work"
+    id="experiences"
     class="min-h-screen py-20 sm:py-32 snap-start snap-always animate-fade-in"
   >
     <div class="space-y-12 sm:space-y-16">
