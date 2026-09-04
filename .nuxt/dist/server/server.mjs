@@ -1,1 +1,0 @@
-export { default } from "file:///home/nabil/Projects/portfolio/node_modules/.pnpm/@nuxt+vite-builder@4.2.1_lightningcss@1.30.2_magicast@0.5.1_nuxt@4.2.1_@parcel+watcher@_f00bb1b327e5592f72889db98a14d1cb/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
