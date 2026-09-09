@@ -21,7 +21,7 @@ import { MapPinIcon } from "lucide-vue-next";
 
         <div class="space-y-6 max-w-md">
           <p class="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-              AI/ML engineer and aspiring
+              Computer scientist and aspiring
             <span class="text-foreground">
               researcher</span
             >, working towards a<span class="text-foreground"> PhD</span>.
@@ -44,7 +44,7 @@ import { MapPinIcon } from "lucide-vue-next";
         <div class="space-y-4">
           <div class="text-sm text-muted-foreground font-mono">CURRENTLY</div>
           <div class="space-y-2">
-            <div class="text-foreground">Assistant Ingenieur</div>
+            <div class="text-foreground">Assistant Ingénieur</div>
             <div class="text-muted-foreground">@ <a class="text-foreground underline hover:text-indigo-600" href="https://mabsilico.com" target="_blank">MAbSilico</a></div>
             <div class="text-xs text-muted-foreground">2026 — Present</div>
           </div>
