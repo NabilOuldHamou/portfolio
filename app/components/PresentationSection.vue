@@ -44,7 +44,7 @@ import { MapPinIcon } from "lucide-vue-next";
         <div class="space-y-4">
           <div class="text-sm text-muted-foreground font-mono">CURRENTLY</div>
           <div class="space-y-2">
-            <div class="text-foreground">Assistant Ingénieur</div>
+            <div class="text-foreground">Junior AI/ML engineer</div>
             <div class="text-muted-foreground">@ <a class="text-foreground underline hover:text-indigo-600" href="https://mabsilico.com" target="_blank">MAbSilico</a></div>
             <div class="text-xs text-muted-foreground">2026 — Present</div>
           </div>

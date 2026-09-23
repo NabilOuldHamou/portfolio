@@ -10,7 +10,7 @@ const jobs = [
   },
   {
     year: "2026",
-    role: "Assistant Ingénieur",
+    role: "Junior AI/ML engineer",
     company: "MAbSilico",
     description:
       "",
